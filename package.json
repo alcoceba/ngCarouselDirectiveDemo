@@ -1,0 +1,65 @@
+{
+  "name": "nativescript-ng2-carousel-demo",
+  "version": "0.0.1",
+  "description": "A simple NativeScript + Angular images carousel for iOS and Android",
+  "license": "MIT",
+  "main": "nativescript-ng2-carousel",
+  "homepage": "https://github.com/alcoceba/ngCarouselDirectiveDemo#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alcoceba/ngCarouselDirectiveDemo.git"
+  },
+  "keywords": [
+    "angular",
+    "angular6",
+    "nativescript",
+    "carousel",
+    "images",
+    "slides",
+    "slide",
+    "slider",
+    "gallery",
+    "demo",
+    "ng",
+    "typescript"
+  ],
+  "author": "Manel Alcoceba <manelalcoceba@gmail.com>",
+  "bugs": {
+    "url": "https://github.com/alcoceba/ngCarouselDirectiveDemo/issues"
+  },
+  "nativescript": {
+    "id": "cat.alcoceba.ngCarousel",
+    "platforms": {
+      "android": "3.1.0",
+      "ios": "3.1.0"
+    },
+    "tns-android": {
+      "version": "4.2.0"
+    },
+    "tns-ios": {
+      "version": "4.2.0"
+    }
+  },
+  "dependencies": {
+    "@angular/animations": "~6.1.0",
+    "@angular/common": "~6.1.0",
+    "@angular/compiler": "~6.1.0",
+    "@angular/core": "~6.1.0",
+    "@angular/forms": "~6.1.0",
+    "@angular/http": "~6.1.0",
+    "@angular/platform-browser": "~6.1.0",
+    "@angular/platform-browser-dynamic": "~6.1.0",
+    "@angular/router": "~6.1.0",
+    "nativescript-angular": "~6.1.0",
+    "nativescript-ng2-carousel": "file:../ngCarouselDirective",
+    "nativescript-theme-core": "~1.0.4",
+    "reflect-metadata": "~0.1.8",
+    "rxjs": "^6.0.0",
+    "tns-core-modules": "~4.2.0",
+    "zone.js": "^0.8.26"
+  },
+  "devDependencies": {
+    "typescript": "~2.7.2",
+    "nativescript-dev-typescript": "~0.7.0"
+  }
+}

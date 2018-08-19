@@ -1,0 +1,45 @@
+/*
+In NativeScript, the app.css file is where you place CSS rules that
+you would like to apply to your entire application. Check out
+http://docs.nativescript.org/ui/styling for a full list of the CSS
+selectors and properties you can use to style UI components.
+
+/*
+In many cases you may want to use the NativeScript core theme instead
+of writing your own CSS rules. For a full list of class names in the theme
+refer to http://docs.nativescript.org/ui/theme.
+*/
+@import '~nativescript-theme-core/css/core.light.css';
+
+/** Slider image */
+.slider-image {
+
+}
+
+/** Slider title format */
+.slider-title {
+    color: #fff;
+    font-weight: bold;
+    background-color: rgba(125, 125, 125);
+    padding: 8;
+    text-align: center;
+    vertical-align: bottom;
+}
+
+/** Arrows */
+.arrow {
+    color: #ffffff;
+    font-size: 32;
+    vertical-align: middle;
+    padding: 10;
+}
+
+/** Arrow left wrapper */
+.arrow.arrow-left {
+
+}
+
+/** Arrow right */
+.arrow.arrow-right {
+
+}
